@@ -2,7 +2,8 @@
 <html lang="pt-br">
 <head>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -57,18 +58,60 @@
             <div class="projetos">
               <div id="titulo"><b>Projetos</b></div>
               <div>
-                <div>
-                  <div>
+                <div class="black">
+                  <div class="texto_2">
+                    <b>Libreye</b>
+                    <div>
+                      <p>O Libreye é uma plataforma controlada por microcontroladores que ajuda as pessoas cegas a aprenderem e praticarem a programação. Através de um hardware especial e próprio para programação.</p>
+                    </div>
                   </div>
-                  <div>
+                  <div class="logo_libre">
+                    <img src="/imgs/libreye_bg.png" alt="logo">
                   </div>
                 </div>
-                <div>
+              </div>
+
+              <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
                 </div>
-              <div>
+              
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="black2">
+                      <div class="imagem">
+                        <img src="/imgs/Teclado.png">
+                        <img id="tecla" src="/imgs/Tecla.png" width="50%">
+                      </div>
+                      <div class="texto_3">
+                        <b>Prototipagem</b>
+                        <div>
+                          <p>A plataforma consiste em um teclado especial para cegos, a sua diferença para os outros, são as teclas que possuem o alfabeto em braile estampadas de forma que o usuária consiga sentir. E a presença de um auto-falante para ajudar a pessoa cega. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="black2"></div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="black2"></div>
+                </div>
+              
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
               </div>
             </div>
-        </div>
-    </div>
+      </div>
 </body>
 </html>
