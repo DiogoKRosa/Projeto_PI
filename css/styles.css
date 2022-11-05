@@ -123,7 +123,56 @@ nav{
 
 .bandeira img{
     width: 100%;
-    
-    height: 100%;
-    
+    height: 100%;    
+}
+
+.texto_1{
+    position: absolute;
+    height: 100%;  
+    width: 60%;
+    right: 0;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.texto_1 b{
+    align-self: center;
+    font-size: 64px;
+    color: #EE0A0A;
+}
+
+.texto_1 div{
+    align-self: center;
+    height: auto;
+    width: 732px;
+}
+
+.texto_1 div p{
+    font-size: 32px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.projetos{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top:40vh;
+}
+.projetos #titulo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#titulo b{
+    font-size: 64px;
+    color: #EE0A0A;
+    align-self: center; 
 }
