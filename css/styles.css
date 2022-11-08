@@ -1,6 +1,4 @@
-*{
-    border: 1px solid red
-}
+
 .wrapper{
     position: absolute;
     width: 100vw;
@@ -97,14 +95,14 @@ nav{
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
 .black{
-    z-index: -1;
+z-index: -1;
    position:relative; 
    width: 100%;
    height: 57vh;
@@ -178,7 +176,6 @@ nav{
 }
 
 .texto_2{
-
  width: 60%;
  height: 100%;
  display: flex;
@@ -232,7 +229,9 @@ nav{
    width: 100%;
    height: 110vh;
    align-self: center;
-   background-image:linear-gradient(to left,#040404, #717171 70%)
+   background-image:linear-gradient(to left,#040404, #717171 70%);
+   display:grid;
+   grid-template-columns: auto auto;
 }
 
 .imagem{
@@ -278,4 +277,10 @@ nav{
 #tecla{
     align-self: center;
     top: 20px;
+}
+
+@media (max-width: 600px){
+    .entrada{
+        flex-direction: column;
+    }
 }
