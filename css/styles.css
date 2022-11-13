@@ -95,7 +95,7 @@ nav{
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-content: space-around;
     
@@ -279,8 +279,21 @@ z-index: -1;
     top: 20px;
 }
 
-@media (max-width: 600px){
-    .entrada{
-        flex-direction: column;
-    }
+.footer{
+    position: relative;
+    top: 430%;
+    width: 100%;
+    height: auto;
+}
+
+.footer .black{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30vh;
+}
+
+.footer .black p{
+    align-self: center;
+    color: #ffffff;
 }
